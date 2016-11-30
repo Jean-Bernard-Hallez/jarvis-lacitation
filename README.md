@@ -10,7 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
-Annonce une citations, humour, blague etc... differente insrit dans le fichier config.sh
+Annonce une citation, une blague etc... insrit dans le fichier config.sh
 
 ## Usage
 ```
@@ -19,9 +19,11 @@ Jarvis: Ok, Le succes a une formule simple... fais de ton mieux
 
 You: proverbe
 Jarvis: Ok, Derriere chaque accomplissement, une personne a dabord pris la decision d essayer !
+
 ----------------------------------------------------------------------
 ATTENTION: dans le fichier config.sh ne jamais mettre d'apostrophe !!!
 ----------------------------------------------------------------------
+
 ```
 
 ## Author

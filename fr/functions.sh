@@ -1,7 +1,6 @@
 # /bin/bash
 
 citation () {
-say "Je recherche..."
 chemin=${PWD}"/plugins/jarvis-lacitation"
 for num in $(cat $chemin/citationlunum.txt); do echo""; done
 # echo "Dernier Proverbe lu $num"
@@ -23,7 +22,7 @@ echo $num> $chemin/citationlunum.txt
 	i=0
 	while IFS= read -r ligne; do
 	if [ "$i" -eq $num ]; then
-	say "$ligne"
+	say "Voici une citation: $ligne"
 	fi
 	i=$(($i+1))
 	done < $chemin/config.sh

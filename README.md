@@ -14,6 +14,7 @@ Annonce une citation, une blague etc... insrit dans le fichier config.sh
 
 ## Usage
 ```
+(21/12/16 Affiche les noms des destinataire possible)
 You: proverbe
 Jarvis: Ok, Le succes a une formule simple... fais de ton mieux
 

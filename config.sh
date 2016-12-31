@@ -11,7 +11,7 @@ On ne peut jamais prévoir lavenir par le passé
 La plus grande découverte de tous les temps, c qune personne peut changer son avenir en changeant simplement son attitude
 En aidant les autres à réussir, on assure notre propre succès.
 Le succès est la capacité de garder son enthousiasme
-si vous voulez réussir... commencez par penser à vous en tant qun gagnant
+si vous voulez réussir... commencez par penser à vous en tant quun gagnant
 Le succès a une formule simple... fais de ton mieux
 Ne vous limitez pas à ce que vous connaissez déjà... Aspirer à plus vous permet de vous réinventer
 Le succès nest pas donné. Il est gagné sur la piste, sur le terrain, dans le gymnase, de sang, de sueur et de larmes occasionnelles

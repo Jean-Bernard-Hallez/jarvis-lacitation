@@ -8,24 +8,17 @@ b=1
 num=$(($num+$b))
 
 	
-	lignemax=$(awk 'END {print NR}' $chemin/config.sh )
-
-lignemax=$(($lignemax-1))
+lignemax=`grep -c '# ##'   $chemin/config.sh`
 
 
-	if [ "$num" -gt "$lignemax" ]
-	then
-	num=2
+if [ "$num" -gt "$lignemax" ]
+then
+num=2
 echo $num> $chemin/citationlunum.txt
-	fi
+fi
 
-	i=0
-	while IFS= read -r ligne; do
-	if [ "$i" -eq $num ]; then
-	say "Voici une citation: $ligne"
-	fi
-	i=$(($i+1))
-	done < $chemin/config.sh
+ligne=`grep '# ##'  $chemin/config.sh  | sed -n $num\p | sed -e "s/# ##//g"`
+say "Voici une citation: $ligne"
 
 #  ECRIRE:
 echo $num> $chemin/citationlunum.txt

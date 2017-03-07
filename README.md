@@ -10,20 +10,23 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(07/03/17 Remodelage du fichier de manière à régler tous les problèmes de caractères tel que les apostrophes, voir le fichier de configuration...
+(31/12/16 Correction de compatibilité avec Jarvis UI)
+
 Annonce une citation, une blague etc... insrit dans le fichier config.sh
+
+## Languages
+
+* Français
+
 
 ## Usage
 ```
-(31/12/16 Correction de compatibilité avec Jarvis UI)
 You: proverbe
 Jarvis: Ok, Le succes a une formule simple... fais de ton mieux
 
 You: proverbe
 Jarvis: Ok, Derriere chaque accomplissement, une personne a dabord pris la decision d essayer !
-
-----------------------------------------------------------------------
-ATTENTION: dans le fichier config.sh ne jamais mettre d'apostrophe !!!
-----------------------------------------------------------------------
 
 ```
 

@@ -23,3 +23,9 @@ say "Voici une citation: $ligne"
 #  ECRIRE:
 echo $num> $chemin/citationlunum.txt
 }
+
+jv_pg_rajoute-proverbe () {
+chemin=${PWD}"/plugins/jarvis-lacitation"
+echo -en "# ## $memoproverbe" >> $chemin/config.sh 
+
+}

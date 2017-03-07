@@ -1,1 +1,5 @@
+*RAJOUTE*PROVERBE*|*RAJOUTE*CITATION*==say "Que souhaites-tu rajouter ?"
+>*==memoproverbe=$order && say "Ai-je bien saisie, tu souhaites rajouter ceci: $order, oui ou non ?"
+>>*OUI*==say "Ok je le rajoute à la fin du fichier de configuration" && jv_pg_rajoute-proverbe
+>>*NON*==say "Ok je ne fais rien..."
 *PROVERBE*|*CITATION*==citation

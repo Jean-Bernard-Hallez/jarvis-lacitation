@@ -11,6 +11,7 @@ For multi-language plugin:
 -->
 ## Description
 (07/03/17 Remodelage du fichier de manière à régler tous les problèmes de caractères tel que les apostrophes, voir le fichier de configuration...
+          Possibilité de rajouter un texte à la fin du fichier de config automatiquement voir exemple plus bas)
 (31/12/16 Correction de compatibilité avec Jarvis UI)
 
 Annonce une citation, une blague etc... insrit dans le fichier config.sh
@@ -27,6 +28,13 @@ Jarvis: Ok, Le succes a une formule simple... fais de ton mieux
 
 You: proverbe
 Jarvis: Ok, Derriere chaque accomplissement, une personne a dabord pris la decision d essayer !
+
+You: rajoute un proverbe
+Jarvis: Que souhaites-tu rajouter ?
+You: La vie est amour tout comme l'amour est à la vie
+Jarvis: Ai-je bien saisie, tu souhaites rajouter ceci: La vie est amour tout comme l'amour est à la vie, oui ou non ?
+You: oui
+Jarvis:  Ok je le rajoute à la fin du fichier de configuration
 
 ```
 

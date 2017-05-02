@@ -1,7 +1,7 @@
 # /bin/bash
 
 citation () {
-chemin=${PWD}"/plugins/jarvis-lacitation"
+chemin=${PWD}"/plugins_installed/jarvis-lacitation"
 for num in $(cat $chemin/citationlunum.txt); do echo""; done
 # echo "Dernier Proverbe lu $num"
 b=1
@@ -25,7 +25,7 @@ echo $num> $chemin/citationlunum.txt
 }
 
 jv_pg_rajoute-proverbe () {
-chemin=${PWD}"/plugins/jarvis-lacitation"
+chemin=${PWD}"/plugins_installed/jarvis-lacitation"
 echo -en "# ## $memoproverbe" >> $chemin/config.sh 
 
 }

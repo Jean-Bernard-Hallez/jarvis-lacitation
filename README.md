@@ -10,6 +10,7 @@ For multi-language plugin:
 - optionally write the Description / Usage sections in several languages
 -->
 ## Description
+(02/05/17 Correction suite modif du "plugins_installed") 
 (07/03/17 Remodelage du fichier de manière à régler tous les problèmes de caractères tel que les apostrophes, voir le fichier de configuration...
           Possibilité de rajouter un texte à la fin du fichier de config automatiquement voir exemple plus bas)
 (31/12/16 Correction de compatibilité avec Jarvis UI)
